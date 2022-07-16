@@ -2,22 +2,22 @@ USE arido_db;
 
 -- Volcado de datos para la tabla "users_base"
 INSERT INTO users_base (alias, pass, actived) VALUES
-('julianalvarez', 'secreta1', 1),
-('osopratto', 'secreta1', 1),
-('leopisculichi', 'secreta1', 1),
-('diegosimeone', 'secreta1', 1),
-('romanriquelme', 'secreta1', 0),
-('jonasgutierrez', 'secreta1', 1),
-('marcelogallardo', 'secreta1', 1),
-('diegomilito', 'secreta1', 1),
-('javiermascherano', 'secreta1', 1),
-('delacruz', 'secreta1', 1),
-('arielortega', 'secreta1', 1),
-('ubaldofilol', 'secreta1', 1),
-('javierzanetti', 'secreta1', 1),
-('danielpassarella', 'secreta1', 1),
-('omarbatistuta', 'secreta1', 0),
-('albertokempes', 'secreta1', 1);
+('julianalvarez', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('osopratto', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('leopisculichi', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('diegosimeone', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('romanriquelme', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 0),
+('jonasgutierrez', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('marcelogallardo', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('diegomilito', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('javiermascherano', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('delacruz', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('arielortega', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('ubaldofilol', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('javierzanetti', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('danielpassarella', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1),
+('omarbatistuta', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 0),
+('albertokempes', '$2a$10$zJbAuT2EwefbeR/Ob05j4OxAWvkXVbmM9Zea51srvAVwrFUtn53/S', 1);
 
 -- Volcado de datos para la tabla "user_security"
 INSERT INTO user_security (id_user, id_group, id_access) VALUE
